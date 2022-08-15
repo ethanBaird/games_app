@@ -44,3 +44,7 @@
     the driver allows our application to connect with the db and use the data meaningfully via callbacks or promises
 
     it allows us to use the db methods such as insertOne() or find().
+
+9) Why do we need to use ObjectId from the MongoDB driver?
+
+    ObjectId() creates an instance of an objectId which is in itself an object
